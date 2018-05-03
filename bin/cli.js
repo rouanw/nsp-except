@@ -1,11 +1,12 @@
 #! /usr/bin/env node
 const path = require('path');
 const argv = require('minimist')(process.argv.slice(2));
-const { add } = require('../lib');
+const { add, check } = require('../lib');
 
 const getCommand = (c) => {
   const availableCommands = {
     add,
+    check,
   };
   if (availableCommands[c]) {
     return availableCommands[c];

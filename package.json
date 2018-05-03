@@ -12,6 +12,8 @@
     "nsp-except": "bin/cli.js"
   },
   "dependencies": {
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.10",
     "minimist": "^1.2.0",
     "nsp": "^3.2.1"
   }
