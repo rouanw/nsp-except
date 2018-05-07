@@ -6,7 +6,7 @@
   "author": "rouanw",
   "license": "MIT",
   "scripts": {
-    "test": "mocha ./test"
+    "test": "mocha ./test/**"
   },
   "bin": {
     "nsp-except": "bin/cli.js"
@@ -19,7 +19,6 @@
     "nsp": "^3.2.1"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.1",
     "expect.js": "^0.3.1",
     "mocha": "^5.1.1"
   }

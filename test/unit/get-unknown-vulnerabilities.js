@@ -1,6 +1,6 @@
-import expect from 'expect.js';
-import getUnknownVulnerabilities from '../../lib/get-unknown-vulnerabilities';
-import { greatLib1, greatLib2, superStuff1, superStuff2, superStuff3, superStuff4 } from './data';
+const expect = require('expect.js');
+const getUnknownVulnerabilities = require('../../lib/get-unknown-vulnerabilities');
+const { greatLib1, greatLib2, superStuff1, superStuff2, superStuff3, superStuff4 } = require('./data');
 
 describe('Get Unknown Vulnerabilities', () => {
   it('returns all vulnerabilities if no exceptions are provided', () => {
