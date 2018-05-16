@@ -5,6 +5,12 @@
   "main": "index.js",
   "author": "rouanw",
   "license": "MIT",
+  "keywords": [
+    "nsp",
+    "audit",
+    "security",
+    "exceptions"
+  ],
   "scripts": {
     "test": "mocha ./test/**"
   },
