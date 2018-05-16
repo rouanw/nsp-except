@@ -1,6 +1,6 @@
 {
   "name": "nsp-except",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Only ignore security vulnerabilities that match your exceptions' paths precisely",
   "main": "index.js",
   "author": "rouanw",
