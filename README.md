@@ -2,6 +2,10 @@
 
 A library to help you only exclude the security vulnerabilities you really mean to.
 
+## Deprecated
+
+NSP has been [shut down](https://blog.npmjs.org/post/175511531085/the-node-security-platform-service-is-shutting), so `nsp-except` is now deprecated. Consider using `npm audit`, along with [`npm-audit-helper`](https://github.com/rouanw/npm-audit-helper) as an alternative.
+
 ## Why
 
 [nsp](https://www.npmjs.com/package/nsp) is a very useful library that checks your project's dependencies against a database of known security vulnerabilities, so that you don't introduce your project to unnecessary risk.
